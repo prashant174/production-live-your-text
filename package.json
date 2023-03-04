@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "concurrently \" npm server:prod\" \"npm run start:front\""
+    "start": "concurrently \" npm run server:prod\" \"npm run start:front\""
   },
   "eslintConfig": {
     "extends": [
