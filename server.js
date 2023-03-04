@@ -70,7 +70,7 @@ app.get("*", function(req,res){
     res.sendFile(path.join(__dirname,"build/index.html"))
 })
 
-const port=process.env.PORT||8080
+const port=5000
 server.listen(port,()=>{
     console.log(`listening on Port ${port}`)
 })
